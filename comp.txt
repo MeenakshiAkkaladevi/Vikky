@@ -1,0 +1,36 @@
+	COMP TIA NETWORK
+                  
+
+IPv4 Address Classes
+
+Class A
+Range: 0. 0. 0. 0 to 127. 255. 255. 255
+Default Subnet Mask: 255. 0. 0. 0 (or /8)
+Leading Bits: 0
+Network Address Range: 0. 0. 0. 0 to 127. 0. 0. 0 (Class A addresses utilize the first octet for the network portion.)
+Usable Host Addresses per Network: About fifteen and odd millions or 2^24 – 2
+Purpose: Intended for extremely large networks. Some examples of such users include big organizations and the ISPs.
+
+Class B
+Range: 128. 0. 0. 0 to 191. 255. 255. 255
+Default Subnet Mask: 255. 255. 0. 0 (or /16)
+Leading Bits: 10
+Network Address Range: 128. 0. 0. 0 to 191. 0. 0. 0 (In Class B addresses the first two octets are used to define the network portion)
+Usable Host Addresses per Network: It is about 65,000(2^16-2).
+Purpose: Ideally implemented in medium to large networks. These include universities and large business firms.
+
+Class C
+Range: 192. 0. 0. 0 to 223. 255. 255. 255
+Default Subnet Mask: 255. 255. 255. 0 (or /24)
+Leading Bits: 110
+Network Address Range: 192. 0. 0. 0 to 223. 0. 0. The Class C addresses use the first three octets for the network part and the last octet for the host part and it is 0.
+Usable Host Addresses per Network: 254(2 to the power of 8 – 2)
+Purpose: Designed for the small networks. These include home based businesses and home computer networks.
+
+Class D
+Range: 224. 0. 0. 0 to 239. 255. 255. 255
+Default Subnet Mask: Since Class D addresses are not used for standard subnetting, the value of n is N/A.
+Leading Bits: 1110
+Purpose: Assigned for Multicast groups only. These addresses are for point-to-multipoint, such as video or audio broadcasting and or teleconferencing.
+
+
